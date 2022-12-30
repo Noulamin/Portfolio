@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9ddd97ce.css",
+    "main.js": "/Portfolio/static/js/main.256e39a8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/TTT.jpg": "/Portfolio/static/media/TTT.7c89442ece00b07e51f4.jpg",
+    "static/media/App-Login.jpg": "/Portfolio/static/media/App-Login.59ffacdc333de255a087.jpg",
+    "static/media/WayHome.jpg": "/Portfolio/static/media/WayHome.8599c2d8aafa2c07bbff.jpg",
+    "static/media/visible.png": "/Portfolio/static/media/visible.9bd6a23f1e58de0573fc.png",
+    "static/media/linkedin.jpg": "/Portfolio/static/media/linkedin.ba1d24ffd2e9fa15cce4.jpg",
+    "static/media/google-drive.png": "/Portfolio/static/media/google-drive.dc5af3573a26c699ae73.png",
+    "static/media/LastGame.jpg": "/Portfolio/static/media/LastGame.7d22b80340eaebdad711.jpg",
+    "static/media/google-play.png": "/Portfolio/static/media/google-play.2156965d30af9e3a297c.png",
+    "static/media/apk.png": "/Portfolio/static/media/apk.cdcef2da952edcd69923.png",
+    "static/media/logo.jpg": "/Portfolio/static/media/logo.d9863208837b3ecbf726.jpg",
+    "static/media/prev-project-temp.png": "/Portfolio/static/media/prev-project-temp.93bcfe4702df82bf98be.png",
+    "static/media/Bouncy.webp": "/Portfolio/static/media/Bouncy.a1cd37dbb888c7204b8e.webp",
+    "index.html": "/Portfolio/index.html",
+    "static/media/line-purple.svg": "/Portfolio/static/media/line-purple.27209a3cacbec9a90c239cc2555b0a9a.svg",
+    "main.9ddd97ce.css.map": "/Portfolio/static/css/main.9ddd97ce.css.map",
+    "main.256e39a8.js.map": "/Portfolio/static/js/main.256e39a8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ddd97ce.css",
+    "static/js/main.256e39a8.js"
+  ]
+}
