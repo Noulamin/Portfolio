@@ -6,7 +6,7 @@ function lol() {
     <>
       Woahhh Click here :
       <button>
-        AAAAAAAAAAAAAAAAA
+        page not found
       </button>
     </>
   );
