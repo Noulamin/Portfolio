@@ -28,7 +28,7 @@ export default function Mode({ handleModeChange, setMode }) {
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/nouamane-elmkadem-57b588209/">
+            <a target="_blank" href="https://www.linkedin.com/in/noulamin/">
               <span class="link-decoration">LinkedIn</span>
               <span class="icon-change">
                 <img
