@@ -10,7 +10,6 @@ export default function Mode({ handleModeChange, setMode }) {
         <ul>
           <li>
             <a href="#projects" >Works</a>
-
           </li>
           <li>
             <a target="_blank" href="https://github.com/Noulamin">
