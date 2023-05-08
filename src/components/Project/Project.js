@@ -15,6 +15,7 @@ import PortfolioPic from "../../assets/images/portfolio.png";
 import AppLogin from "../../assets/images/App-Login.jpg";
 import AppLogin2 from "../../assets/images/bank.png";
 import StormShotPic from "../../assets/images/StormShot.png";
+import BlenderPic from "../../assets/images/Blender.png";
 
 function Project() {
   return (
@@ -476,7 +477,13 @@ function Project() {
           </div>
           <div className="container-footer">
             <p>
-              See Blender works on{" "}
+              See {" "}
+              <img
+                className="mb-1 little-icon-2"
+                src={BlenderPic}
+                alt="GitHub"
+              />{" "}
+              Blender works on{" "}
               <img
                 className="mb-1 little-icon-2"
                 src={Drive}
