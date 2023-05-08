@@ -28,7 +28,7 @@ export const BIO = [
     title: {
       where: "Freelance",
       name: "Fiver",
-      cargo: "Full stack developer",
+      cargo: "Full stack js developer",
     },
     description:
       "Freelance projects with Technologies like Nextjs, Reactjs, Redux and Gatsby",

@@ -67,7 +67,7 @@
 }
 
 .details-stack {
-  margin: 3rem 1rem;
+  margin: 2rem 1rem;
 }
 
 .resp {
@@ -85,6 +85,11 @@
   height: 230px;
 }
 
+.project-picture-3{
+  border-radius: 11px;
+  width: 224px;
+}
+
 .little-icon{
   max-width: 21px;
 }
@@ -97,6 +102,10 @@
   padding: 2rem 0;
   color: var(--white-smoke-color);
   text-align: center;
+}
+
+p{
+  margin-bottom: 4px;
 }
 
 

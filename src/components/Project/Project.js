@@ -9,8 +9,12 @@ import TTT from "../../assets/images/TTT.jpg";
 import PlayStore from "../../assets/images/google-play.png";
 import Drive from "../../assets/images/google-drive.png";
 import Apk from "../../assets/images/apk.png";
+import Youtube from "../../assets/images/youtube.png";
 import Visible from "../../assets/images/visible.png";
+import PortfolioPic from "../../assets/images/portfolio.png";
 import AppLogin from "../../assets/images/App-Login.jpg";
+import AppLogin2 from "../../assets/images/bank.png";
+import StormShotPic from "../../assets/images/StormShot.png";
 
 function Project() {
   return (
@@ -21,20 +25,22 @@ function Project() {
       </p>
       <div className="resp">
         <section id="projects" className="container container-project">
-          <p className="purple-smoke-text text-center m-0"> WebSites </p>{" "}
+          <p className="purple-smoke-text text-center m-0"> Web Applications </p>{" "}
 
           {/* Application dashboard and login */}
+
+          {/* TTT */}
           <div className="project-header">
             <div className="project-box">
-              <span className="white-text">E-learning Application</span>
+              <span className="white-text">Simple Bank</span>
               <p className="gray-text text-box">
-                this application is often used to deliver online courses, lectures, and other educational resources to students, employees, or other learners.
+                Online Bank Hub is a web-based platform designed for individuals and organizations who want to manage their finances in a simple and secure way.
               </p>
             </div>
             <img className="project-line" src={Line} alt="abajo" />
           </div>
           <div className="project-details">
-            <img src={AppLogin} className="project-picture" alt="Project React Simple Portfolio" />
+            <img src={AppLogin2} className="project-picture" alt="Project React Simple Portfolio" />
             <div className="details-left">
               <p className="gray-text">
                 See this Project on{" "}
@@ -43,15 +49,67 @@ function Project() {
                   src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
                   alt="GitHub"
                 />{" "}
-                <a href="https://github.com/Noulamin/E-LEARNING-APPLICATION-V1.0" target="_blank" className="text-figma">Github</a>.
+                <a href="https://github.com/Noulamin/Simple-Bank-projet-file-rouge" target="_blank" className="text-figma">Github</a>.
               </p>
               <div className="details-stack">
                 <span className="white-text">Technologies</span>
                 <ul className="gray-text">
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>Bootstrap</li>
-                  <li>JavaScript</li>
+                  <li>React js</li>
+                  <li>React Native</li>
+                  <li>Express js</li>
+                  <li>MongoDb</li>
+                </ul>
+              </div>
+              <p className="gray-text">
+                Check full {" "}
+                <img
+                  className="mb-1 little-icon-2"
+                  src={Youtube}
+                  alt="GitHub"
+                />{" "}
+                <a href="https://youtu.be/2tulYce-vYo" target="_blank" className="text-figma">Youtube</a> video.
+              </p>
+              <p className="gray-text">
+                A little star on {" "}
+                <img
+                  className="mb-1"
+                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                  alt="GitHub"
+                />{" "}
+                <a href="https://github.com/Noulamin/Simple-Bank-projet-file-rouge" target="_blank" className="white-text text-figma">Github</a>.
+              </p>
+              <p className="gray-text">
+                Release date : {" "} <p className="text-figma">Mar 30, 2023</p>
+              </p>
+            </div>
+          </div>
+
+          {/* TTT */}
+          <div className="project-header">
+            <div className="project-box">
+              <span className="white-text">Portfolio</span>
+              <p className="gray-text text-box">
+                A digital portfolio showcasing web apps and games projects.
+              </p>
+            </div>
+            <img className="project-line" src={Line} alt="abajo" />
+          </div>
+          <div className="project-details">
+            <img src={PortfolioPic} className="project-picture" alt="Project React Simple Portfolio" />
+            <div className="details-left">
+              <p className="gray-text">
+                See this Project on{" "}
+                <img
+                  className="mb-1"
+                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                  alt="GitHub"
+                />{" "}
+                <a href="https://github.com/Noulamin/Portfolio" target="_blank" className="text-figma">Github</a>.
+              </p>
+              <div className="details-stack">
+                <span className="white-text">Technologies</span>
+                <ul className="gray-text">
+                  <li>React js</li>
                 </ul>
               </div>
               <p className="gray-text">
@@ -61,7 +119,7 @@ function Project() {
                   src={Visible}
                   alt="GitHub"
                 />{" "}
-                <a href="https://noulamin.github.io/E-LEARNING-APPLICATION-V1.0/" target="_blank" className="text-figma">Live</a> view.
+                <a href="https://noulamin.com" target="_self" className="text-figma">Live</a> view.
               </p>
               <p className="gray-text">
                 A little star on {" "}
@@ -70,7 +128,10 @@ function Project() {
                   src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
                   alt="GitHub"
                 />{" "}
-                <a href="https://github.com/Noulamin/E-LEARNING-APPLICATION-V1.0" target="_blank" className="white-text text-figma">Github</a>.
+                <a href="https://github.com/Noulamin/Portfolio" target="_blank" className="white-text text-figma">Github</a>.
+              </p>
+              <p className="gray-text">
+                Release date : {" "} <p className="text-figma">Jan 05, 2023</p>
               </p>
             </div>
           </div>
@@ -123,6 +184,64 @@ function Project() {
                 />{" "}
                 <a href="https://github.com/Noulamin/Jeu-Tic-Tac-Toe-simple-en-javascript" target="_blank" className="white-text text-figma">Github</a>.
               </p>
+              <p className="gray-text">
+                Release date : {" "} <p className="text-figma">Sep 22, 2022</p>
+              </p>
+            </div>
+          </div>
+
+          {/* TTT */}
+          <div className="project-header">
+            <div className="project-box">
+              <span className="white-text">E-learning Application</span>
+              <p className="gray-text text-box">
+                this application is often used to deliver online courses, lectures, and other educational resources to students, employees, or other learners.
+              </p>
+            </div>
+            <img className="project-line" src={Line} alt="abajo" />
+          </div>
+          <div className="project-details">
+            <img src={AppLogin} className="project-picture" alt="Project React Simple Portfolio" />
+            <div className="details-left">
+              <p className="gray-text">
+                See this Project on{" "}
+                <img
+                  className="mb-1"
+                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                  alt="GitHub"
+                />{" "}
+                <a href="https://github.com/Noulamin/E-LEARNING-APPLICATION-V1.0" target="_blank" className="text-figma">Github</a>.
+              </p>
+              <div className="details-stack">
+                <span className="white-text">Technologies</span>
+                <ul className="gray-text">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+              <p className="gray-text">
+                See also {" "}
+                <img
+                  className="mb-1 little-icon"
+                  src={Visible}
+                  alt="GitHub"
+                />{" "}
+                <a href="https://noulamin.github.io/E-LEARNING-APPLICATION-V1.0/" target="_blank" className="text-figma">Live</a> view.
+              </p>
+              <p className="gray-text">
+                A little star on {" "}
+                <img
+                  className="mb-1"
+                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                  alt="GitHub"
+                />{" "}
+                <a href="https://github.com/Noulamin/E-LEARNING-APPLICATION-V1.0" target="_blank" className="white-text text-figma">Github</a>.
+              </p>
+              <p className="gray-text">
+                Release date : {" "} <p className="text-figma">Jan 16, 2022</p>
+              </p>
             </div>
           </div>
           <div className="container-footer">
@@ -172,15 +291,18 @@ function Project() {
                     <li>C# Language</li>
                   </ul>
                 </div>
-                {/* <p className="gray-text">
-                A little star on {" "}
-                <img
-                  className="mb-1"
-                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
-                  alt="GitHub"
-                />{" "}
-                <span className="white-text text-figma">Github</span>.
-              </p> */}
+                <p className="gray-text">
+                  Check demo {" "}
+                  <img
+                    className="mb-1 little-icon-2"
+                    src={Youtube}
+                    alt="GitHub"
+                  />{" "}
+                  <a href="https://youtu.be/L7TkJUii_SI" target="_blank" className="text-figma">Youtube</a> video.
+                </p>
+                <p className="gray-text">
+                  Release date : {" "} <p className="text-figma">May 19, 2021</p>
+                </p>
               </div>
             </div>
 
@@ -215,15 +337,83 @@ function Project() {
                     <li>Adobe Photoshop</li>
                   </ul>
                 </div>
-                {/* <p className="gray-text">
-                A little star on {" "}
-                <img
-                  className="mb-1"
-                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
-                  alt="GitHub"
-                />{" "}
-                <span className="white-text text-figma">Github</span>.
-              </p> */}
+                <p className="gray-text">
+                  Release date : {" "} <p className="text-figma">Aug 10, 2022</p>
+                </p>
+              </div>
+            </div>
+
+            <div className="project-header">
+              <div className="project-box">
+                <span className="white-text">StormShot</span>
+                <p className="gray-text text-box">
+                  An offline shooting game with challenging puzzle levels.
+                </p>
+              </div>
+              <img className="project-line" src={Line} alt="abajo" />
+            </div>
+            <div className="project-details">
+              <img src={StormShotPic} className="project-picture-3" alt="Project React Simple Portfolio" />
+              <div className="details-left">
+                <p className="gray-text">
+                  See this Game on{" "}
+                  <img
+                    className="mb-1 little-icon"
+                    src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                    alt="GitHub"
+                  />{" "}
+                  <a href="https://github.com/Noulamin/StormShot-Game" target="_blank" className="text-figma">Github</a>.
+                </p>
+                <div className="details-stack">
+                  <span className="white-text">Technologies</span>
+                  <ul className="gray-text">
+                    <li>Unity Engine</li>
+                    <li>C# Language</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe Photoshop</li>
+                  </ul>
+                </div>
+                <div className="details-stack">
+                  <span className="white-text">Game versions</span>
+                  <ul className="gray-text">
+                    <li>
+                      <p className="gray-text">
+                        Check v1 {" "}
+                        <img
+                          className="mb-1 little-icon-2"
+                          src={Youtube}
+                          alt="GitHub"
+                        />{" "}
+                        <a href="https://www.youtube.com/watch?v=-IZs-krerQ4" target="_blank" className="text-figma">Youtube</a> video.
+                      </p>
+                    </li>
+                    <li>
+                      <p className="gray-text">
+                        Check v2 {" "}
+                        <img
+                          className="mb-1 little-icon-2"
+                          src={Youtube}
+                          alt="GitHub"
+                        />{" "}
+                        <a href="https://youtu.be/KT3ZiP0e4EQ" target="_blank" className="text-figma">Youtube</a> video.
+                      </p>
+                    </li>
+                    <li>
+                      <p className="gray-text">
+                        Check v3 {" "}
+                        <img
+                          className="mb-1 little-icon-2"
+                          src={Youtube}
+                          alt="GitHub"
+                        />{" "}
+                        <a href="https://youtu.be/ek4XAWV3-yM" target="_blank" className="text-figma">Youtube</a> video.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <p className="gray-text">
+                  Release date : {" "} <p className="text-figma">Nov 27, 2022</p>
+                </p>
               </div>
             </div>
 
@@ -254,12 +444,20 @@ function Project() {
                   <span className="white-text">Technologies</span>
                   <ul className="gray-text">
                     <li>Unity Engine</li>
-                    <li>Blender</li>
                     <li>Photon Engine</li>
                     <li>Firebase</li>
                     <li>C# Language</li>
                   </ul>
                 </div>
+                <p className="gray-text">
+                  Check full {" "}
+                  <img
+                    className="mb-1 little-icon-2"
+                    src={Youtube}
+                    alt="GitHub"
+                  />{" "}
+                  <a href="https://youtu.be/qrpXTkEMOm0" target="_blank" className="text-figma">Youtube</a> video.
+                </p>
                 <p className="gray-text">
                   Check test APK {" "}
                   <img
@@ -268,6 +466,9 @@ function Project() {
                     alt="GitHub"
                   />{" "}
                   <a href="https://drive.google.com/file/d/1qU2y3HDuWXPw5BTkqBuRgm5DlPczqLsE/view?usp=share_link" target="_blank" className="white-text text-figma">Here</a>.
+                </p>
+                <p className="gray-text">
+                  Release date : {" "} <p className="text-figma">April 02, 2019</p>
                 </p>
               </div>
             </div>

@@ -9,7 +9,7 @@ export default function Mode({ handleModeChange, setMode }) {
       <div className="mode-left white-text">
         <ul>
           <li>
-            <a href="#projects" >Works</a>
+            <a href="#projects" >Projects</a>
           </li>
           <li>
             <a target="_blank" href="https://github.com/Noulamin">
