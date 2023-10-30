@@ -14,6 +14,8 @@ import Visible from "../../assets/images/visible.png";
 import PortfolioPic from "../../assets/images/portfolio.png";
 import AppLogin from "../../assets/images/App-Login.jpg";
 import AppLogin2 from "../../assets/images/bank.png";
+import Cvmagique from "../../assets/images/cvmagique.png";
+import ToolzApp from "../../assets/images/toolzmarket.png";
 import StormShotPic from "../../assets/images/StormShot.png";
 import BlenderPic from "../../assets/images/Blender.png";
 
@@ -29,6 +31,133 @@ function Project() {
           <p className="purple-smoke-text text-center m-0"> Web Applications </p>{" "}
 
           {/* Application dashboard and login */}
+
+          {/* TTT */}
+          <div className="project-header">
+            <div className="project-box">
+              <span className="white-text">Toolzmarket</span>
+              <p className="gray-text text-box">
+                Discover and access a curated marketplace of essential apps and powerful tools with ToolsMarket.
+              </p>
+            </div>
+            <img className="project-line" src={Line} alt="abajo" />
+          </div>
+          <div className="project-details">
+            <img src={ToolzApp} className="project-picture" alt="Project React Simple Portfolio" />
+            <div className="details-left">
+              {/* <p className="gray-text">
+                See this Project on{" "}
+                <img
+                  className="mb-1"
+                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                  alt="GitHub"
+                />{" "}
+                <a href="https://github.com/Noulamin/Simple-Bank-projet-file-rouge" target="_blank" className="text-figma">Github</a>.
+              </p> */}
+              <p className="gray-text">
+                Check full {" "}
+                <img
+                  className="mb-1 little-icon-2"
+                  src={Youtube}
+                  alt="GitHub"
+                />{" "}
+                <a href="https://youtu.be/MtqvfwIwllA" target="_blank" className="text-figma">Youtube</a> video.
+              </p>
+              <div className="details-stack">
+                <span className="white-text">Technologies</span>
+                <ul className="gray-text">
+                  <li>React js</li>
+                  <li>Express js</li>
+                  <li>Electron js</li>
+                  <li>DigitalOcean</li>
+                </ul>
+              </div>
+              {/* <p className="gray-text">
+                See also {" "}
+                <img
+                  className="mb-1 little-icon"
+                  src={Visible}
+                  alt="GitHub"
+                />{" "}
+                <a href="https://cvmagique.fr" target="_blank" className="text-figma">Live</a> view.
+              </p> */}
+              {/* <p className="gray-text">
+                A little star on {" "}
+                <img
+                  className="mb-1"
+                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                  alt="GitHub"
+                />{" "}
+                <a href="https://github.com/Noulamin/Simple-Bank-projet-file-rouge" target="_blank" className="white-text text-figma">Github</a>.
+              </p> */}
+              <p className="gray-text">
+                Release date : {" "} <p className="text-figma">Oct 27, 2023</p>
+              </p>
+            </div>
+          </div>
+
+          {/* TTT */}
+          <div className="project-header">
+            <div className="project-box">
+              <span className="white-text">CV Magique</span>
+              <p className="gray-text text-box">
+                Your one-stop solution for creating stunning resumes and compelling letters of motivation with ease.
+              </p>
+            </div>
+            <img className="project-line" src={Line} alt="abajo" />
+          </div>
+          <div className="project-details">
+            <img src={Cvmagique} className="project-picture" alt="Project React Simple Portfolio" />
+            <div className="details-left">
+              {/* <p className="gray-text">
+                See this Project on{" "}
+                <img
+                  className="mb-1"
+                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                  alt="GitHub"
+                />{" "}
+                <a href="https://github.com/Noulamin/Simple-Bank-projet-file-rouge" target="_blank" className="text-figma">Github</a>.
+              </p> */}
+              <p className="gray-text">
+                Check full {" "}
+                <img
+                  className="mb-1 little-icon-2"
+                  src={Youtube}
+                  alt="GitHub"
+                />{" "}
+                <a href="https://youtu.be/LEYDcI-at0Y" target="_blank" className="text-figma">Youtube</a> video.
+              </p>
+              <div className="details-stack">
+                <span className="white-text">Technologies</span>
+                <ul className="gray-text">
+                  <li>React js</li>
+                  <li>FastAPI</li>
+                  <li>DigitalOcean</li>
+                </ul>
+              </div>
+              <p className="gray-text">
+                See also {" "}
+                <img
+                  className="mb-1 little-icon"
+                  src={Visible}
+                  alt="GitHub"
+                />{" "}
+                <a href="https://cvmagique.fr" target="_blank" className="text-figma">Live</a> view.
+              </p>
+              {/* <p className="gray-text">
+                A little star on {" "}
+                <img
+                  className="mb-1"
+                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                  alt="GitHub"
+                />{" "}
+                <a href="https://github.com/Noulamin/Simple-Bank-projet-file-rouge" target="_blank" className="white-text text-figma">Github</a>.
+              </p> */}
+              <p className="gray-text">
+                Release date : {" "} <p className="text-figma">Jun 04, 2023</p>
+              </p>
+            </div>
+          </div>
 
           {/* TTT */}
           <div className="project-header">
@@ -96,7 +225,7 @@ function Project() {
             <img className="project-line" src={Line} alt="abajo" />
           </div>
           <div className="project-details">
-            <img src={PortfolioPic} className="project-picture" alt="Project React Simple Portfolio" />
+            <img src={PortfolioPic} style={{ outline: '2px solid gray' }} className="project-picture" alt="Project React Simple Portfolio" />
             <div className="details-left">
               <p className="gray-text">
                 See this Project on{" "}

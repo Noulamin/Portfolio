@@ -29,13 +29,16 @@ export const About = () => {
             <li>Front end
               <ul className="tech-stack m-0 mx-2">
                 <li>React js</li>
-                <li>Ui/Ux Designer</li>
+                <li>React Native</li>
+                <li>Electron js</li>
+                <li>Next js</li>
               </ul>
             </li>
             <li>Back end
               <ul className="tech-stack m-0 mx-2">
-                <li>Node js</li>
                 <li>Express js</li>
+                <li>FastAPI</li>
+                <li>Node js</li>
               </ul>
             </li>
           </ul>
@@ -58,11 +61,12 @@ export const About = () => {
           <ul className="tech-stack">
             <p className=" text-center">
               <p className="text-figma m-0">
-                Tools
+                Others
               </p>
             </p>
             <li>Git/GitHub</li>
             <li>Firebase</li>
+            <li>digitalocean</li>
             <li>MongoDb</li>
             <li>Android Studio</li>
             <li>PostgreSQL</li>
@@ -81,20 +85,18 @@ export const About = () => {
             </p>
             <li>HTML5</li>
             <li>CSS3</li>
-            <li>Bootstrap</li>
-            <li>Tailwind</li>
             <li>JavaScript</li>
-            <li>PHP</li>
-            <li>Kotlin</li>
+            <li>Material ui</li>
+            <li>Bootstrap</li>
             <li>Python</li>
-            <li>C Language</li>
             <li>C# </li>
+            <li>Kotlin</li>
+            <li>PHP</li>
+            <li>C Language</li>
             <li>C++</li>
           </ul>
         </div>
-        {/* <a className="about-see" href="#">See more {"->"} </a> */}
       </div>
-
     </section>
   );
 };
